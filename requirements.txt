@@ -9,4 +9,4 @@ gcloud
 sseclient
 pycryptodome
 requests_toolbelt
-feedpraser
+feedparser==6.0.10
