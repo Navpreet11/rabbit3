@@ -3,7 +3,7 @@ streamlit-option-menu==0.3.0
 DateTime==4.4
 Pillow ==9.0.1
 requests==2.11.1
-firebase==3.0.1
+firebase==4.0.1
 python_jwt
 gcloud
 sseclient
