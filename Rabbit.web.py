@@ -1,5 +1,5 @@
 import streamlit as st
-from firebase import firebase
+from firebase import Firebase
 from datetime import datetime
 from streamlit_option_menu import option_menu
 from PIL import Image
@@ -50,7 +50,7 @@ firebaseConfig = {
   "measurementId": "G-H1NRRJQRHT"
 }
 
-firebase=firebase(firebaseConfig)
+firebase=Firebase(firebaseConfig)
 auth=firebase.auth()
 
 data=firebase.database()
